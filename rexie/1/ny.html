@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year!</title>
+    <style>
+        /* General Styles */
+        body {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Container for Content */
+        .content-container {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            width: 85%;
+            max-width: 950px;
+        }
+
+        /* Heading */
+
+        /* Image Styling */
+        img {
+            width: 100%;
+            max-width: 750px;
+            margin: 35px 0;
+            border-radius: 15px;
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            background-color: #388e3c; /* Green button */
+            color: white;
+            font-size: 1.3em;
+            padding: 18px 35px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 35px;
+        }
+
+        .back-button:hover {
+            background-color: #1b5e20; /* Darker green on hover */
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.7em;
+            }
+
+            .content-container {
+                width: 95%;
+                padding: 25px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-container">
+
+        <div class="definition">
+            <h2>What is the New Year?</h2>
+            <p>The New Year marks the beginning of a new calendar year, a time for fresh starts, resolutions, and celebrations. It symbolizes new beginnings and the opportunity to reflect on the past year while looking forward to the future with hope and optimism.</p>
+        </div>
+
+        <img src="2.jpg" alt="New Year Celebration">
+
+    </div>
+
+</body>
+</html>
